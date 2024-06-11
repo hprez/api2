@@ -59,6 +59,8 @@ app.MapPost("/upload", async (HttpClient httpClient) =>
 .WithName("UploadContent")
 .WithOpenApi();
 
+//test
+
 app.Run();
 
 internal record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
