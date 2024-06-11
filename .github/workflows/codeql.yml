@@ -7,8 +7,8 @@ on:
       - src/web-apps/CloudPharmacy.Physician.WebApp/**
 
 env:
-  WEB_APP_PACKAGE_PATH: './src/web-apps/CloudPharmacy.Physician.WebApp/CloudPharmacy.Physician.WebApp.csproj'
-  DOTNET_VERSION: '6.0'
+  WEB_APP_PACKAGE_PATH: './WebApplication10.sln'
+  DOTNET_VERSION: '8.0'
 
 jobs:
   build-and-analyze-code:
