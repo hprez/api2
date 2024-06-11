@@ -35,7 +35,7 @@ app.MapGet("/weatherforecast", () =>
 })
 .WithName("GetWeatherForecast")
 .WithOpenApi();
-
+//test
 app.MapPost("/upload", async (HttpClient httpClient) =>
 {
     using var memoryStream = new MemoryStream();
